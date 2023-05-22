@@ -45,7 +45,7 @@ public class AdminModel {
             String total_harga = result.getString("total_harga");
             String status = result.getString("status");
             String metode =result.getString("metode_pembayaran");
-            model.addRow(new Object[]{id,barang,jumlah,total_harga,status,metode});
+            model.addRow(new Object[]{id,barang,jumlah,total_harga,metode,status});
             }
       }
      
@@ -61,7 +61,7 @@ public class AdminModel {
             String total_harga = result.getString("total_harga");
             String status = result.getString("status");
             String metode =result.getString("metode_pembayaran");
-            model.addRow(new Object[]{id,barang,jumlah,total_harga,status,metode});
+            model.addRow(new Object[]{id,barang,jumlah,total_harga,metode,status});
             }
       }
      
